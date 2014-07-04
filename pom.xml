@@ -10,19 +10,15 @@
   <name>ItemExchange</name>
   <url>https://github.com/ttk2/ItemExchange</url>
   
+  
+   <properties>
+      <maven.compiler.source>1.7</maven.compiler.source>
+      <maven.compiler.target>1.7</maven.compiler.target>
+      <project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
+      <project.reporting.outputEncoding>Cp1252</project.reporting.outputEncoding>
+    </properties>
+  
   <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
-          <encoding>Cp1252</encoding>
-        </configuration>
-      </plugin>
-    </plugins>
-    
     <sourceDirectory>${basedir}/src</sourceDirectory>
     
     <resources>
